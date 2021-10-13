@@ -1,0 +1,154 @@
+
+a{
+   border: 2px solid brown;
+
+}
+body{
+    background-image: url("form_back.jpg");
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+}
+
+#heading{
+    margin: 1vh 30vh 0vh 25vh;
+    color: rgb(136, 7, 136);
+    font-size: 20px;
+}
+section{
+    color:rgb(59, 5, 131);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 33vh;
+    
+   
+}
+input{
+    border-radius: 10px;     
+    margin-left: 25vh;
+    font-size: 20px;
+    width: 30vh;
+    padding: 2px 10px 2px 15px ;
+    font-weight: 500;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px ;
+    margin-left: 33vh;
+    border-radius: 10px;
+    background-color: rgb(158, 125, 211);
+    font-size: 15px;  
+    font-weight: 500;
+}
+
+.formError{
+    color: rgb(224, 68, 68);
+    font-size: 15px;
+}
+/* ------------------------ */
+#ShomeBtn{
+    text-decoration: none;
+    border: none;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    margin-left: 40vh;
+}
+#LhomeBtn{
+    text-decoration: none;
+    border: none;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 90vh;
+
+}
+body{
+   height: 30vh;
+}
+ /* ------------------ Home page ------- */
+ #HomeBody{
+     display: grid;
+     justify-content: center;
+ }
+
+ #sign, #log{
+     text-decoration: none;
+     font-size: 20px;
+     color: rgb(255, 5, 5);
+     border: none;
+     font-weight: 500;
+     margin-top: 10px;
+
+ }
+ /* ----------------error ---------- */
+ #error{
+     color: rgb(255, 0, 0);
+     margin-left: 90vh;
+     margin-top: 20px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+/* ------------- login page ------------ */
+#Lhead{
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 25vh;
+}
+
+#login{
+    background-image: url("form_back3.png");
+    margin-top: 10vh;
+    
+    margin-right: 40vh;
+    opacity: 0.7;
+}
+.loginPage{
+    width:40vh;
+    height:4vh;
+    color:rgb(19, 4, 4);
+    background-color: rgb(254, 254, 255);
+    font-size: 24px;
+    font-weight: 1.67;
+    
+}
+#loginHeading{
+    color: rgb(204, 68, 68);
+    font-size: 40px;
+}
+.btn{
+    width:57px;
+    margin-top: 20px;
+}
+#userr{
+    display: inline-block;
+    margin-left: 30px ;
+    
+
+}
+#logi{
+    display: inline-block;
+    margin-right: 30px;
+}
+#containerLogin{
+    margin-left: 20vh;
+    text-align: center;
+} 
+
+#loginBtn{
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20vh;
+}
+#userId, #Pass{
+    font-size: 25px;
+    margin: 10vh 10vh 0vh 30vh;
+
+}
+#homeContainer{
+    display: grid;
+    justify-content: center;
+}

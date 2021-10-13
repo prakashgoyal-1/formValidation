@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation form</title>
+    
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2  id="heading" >Welcome to Sign up page</h2><br/>
+    <!-- <p id="test"></p> -->
+    <div id="MyForm">
+        <form id="form"  name="myForm" id="formId"; target="_blank" onsubmit=" return formValidation()" method="post" >
+            <div id="Name" class="formDesign">
+                <section>Name</section>
+                <input type="text" class="widthSame"  required  id="name" >
+                <span class = "formError"  id="nameError"> </span>
+            </div>
+    
+            <div class="formDesign" id="Fname" >
+                <section>Father Name </section>
+                <input type="text"  class="widthSame"  required   id="fname">            
+                <span  class = "formError" id="fnameError"></span>
+            </div>  
+            
+            <div  class="formDesign" id="dob" >
+                <section>DOB </section>
+                <input type="date"  class="widthSame"  required  id="Dob">
+            </div>
+    
+            <div  class="formDesign" id="gender">
+                <section>Gender </section> 
+                <div id="gender">
+                   <input type="text" list="genderr" required class="Gender"/>
+                    <datalist id="genderr">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                    </datalist>
+                </div>
+        
+            </div>
+                <span class = "formError"   id="formError"></span>
+            </div> 
+    
+            <div  class="formDesign" id="add">
+                <section>Address </section>
+                <input type="text" class="widthSame"  required   id="Add"  >  
+            </div>
+    
+            <div  class="formDesign" id="Mobile">
+                 <section> Mobile </section>
+                 <input type="number" class="widthSame"  required  id="mobile" >
+                 <span   class = "formError" id="mobileError"></span>
+            </div>
+    
+            <div  class="formDesign" id="Email">
+                <section>Email  </section></b>
+                <input type="email" class="widthSame"  required  id="email" >
+                <span  class = "formError" id="emailError"></span>
+            </div>
+     
+            <div  class="formDesign" id="Pwd">
+                <section>Password  </section>
+                <input type="text" class="widthSame"   required id="pwd" >
+                <span   class = "formError" id="passError"></span>
+            </div>
+                   
+            <div  class="formDesign" id="Cpass">
+                <section>Confirm Password  </section>
+                <input type="password"  class="widthSame"  required  id="cpass" >
+                <span  class = "formError"  id="cpassError"></span>
+            </div>
+    
+            <div>
+                <input type="submit" name="myForm" id="submit"  value="submit"> 
+                
+            </div>
+        </form>
+    <p><a href="index.html" id="ShomeBtn" >Click Here! </a> to go Home page</p>
+    
+
+</body>
+</html>
